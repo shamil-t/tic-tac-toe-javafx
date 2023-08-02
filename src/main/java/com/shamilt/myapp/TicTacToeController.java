@@ -186,7 +186,6 @@ public class TicTacToeController {
             fxmlLoader.setController(new DialogController(content, won));
             Scene scene = new Scene(fxmlLoader.load(), 200, 50);
 
-
             Stage stage = new Stage();
             stage.setTitle("Winner !!");
             stage.setScene(scene);
